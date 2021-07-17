@@ -1,0 +1,33 @@
+---
+title: 关于本站
+date: 2021-07-17 16:49:00
+---
+#### 关于我
+
+高中毕业啦~
+
+[**Github**](https://github.com/ocelot324) 和 **[微博](https://weibo.com/2379418717/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1)** 见侧栏头像下方。
+
+[**地铁族成都区**](http://www.ditiezu.com/forum-53-1.html) ID： [Ocelot324](http://www.ditiezu.com/space-uid-645326.html)
+
+
+
+#### 关于本站
+
+Ocelot324 的博客
+
+生活 | 科技 | 轨交 | 航天 | And more……
+
+站点托管于 [**Github Pages**](https://github.com/ocelot324/ocelot324.github.io)
+
+主域名：ocelot.top
+
+备用域名：ocelot324.github.io
+
+本站采用 **Hexo**，主题 **Next** ，详见页面底部说明。
+
+本站图片全部使用 [**sm.ms**](https://sm.ms/) 图床。
+
+评论系统来自 [**Valine**](https://valine.js.org/) ，数据储存使用 [**Leancloud**](https://leancloud.cn/) 。
+
+建站日期：2019年3月23日
