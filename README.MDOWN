@@ -1,0 +1,39 @@
+---
+title: 关于本站
+date: 2021-12-09 18:55:00
+---
+#### 关于我
+
+Hello~
+
+科技迷，喜欢折腾电脑、手机、硬件、软件…… 也是航天、交通爱好者。
+
+学到一半被老师拖去上文化课的  什么奖都没拿过的  很菜的  Oier。
+
+目前就读于 UESTC ，高中毕业于成都七中嘉祥。
+
+[**Github**](https://github.com/ocelot324) 和 **[微博](https://weibo.com/2379418717/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1)** 见侧栏头像下方。
+
+[**地铁族成都区**](http://www.ditiezu.com/forum-53-1.html) ID： [Ocelot324](http://www.ditiezu.com/space-uid-645326.html)
+
+
+
+#### 关于本站
+
+XUAN 的博客
+
+生活 | 科技 | 航天 | 交通 | And more……
+
+不定时更新，大概一月一更。
+
+站点托管于 [**Github Pages**](https://github.com/ocelot324/ocelot324.github.io)
+
+主域名：ocelot.top
+
+备用域名：ocelot324.github.io
+
+本站基于 **Hexo**，主题 **Next** ，详见页面底部说明。
+
+评论系统来自 [**Valine**](https://valine.js.org/) 。
+
+建站日期：2019年3月23日
