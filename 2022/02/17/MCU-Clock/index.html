@@ -20,25 +20,28 @@
     var CONFIG = {"hostname":"ocelot324.github.io","root":"/","scheme":"Gemini","version":"7.7.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":3,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="啊对，只有游，没有记。甩几张图走人">
-<meta property="og:type" content="article">
-<meta property="og:title" content="NOIP2018 参赛纪念">
-<meta property="og:url" content="http://ocelot324.github.io/2019/04/20/NOIP2018/index.html">
+  <meta property="og:type" content="article">
+<meta property="og:title" content="ESP8266单片机DIY数码管小时钟">
+<meta property="og:url" content="http://ocelot324.github.io/2022/02/17/MCU-Clock/index.html">
 <meta property="og:site_name" content="XUAN 的博客">
-<meta property="og:description" content="啊对，只有游，没有记。甩几张图走人">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://xuan-blog-pics-1308720530.cos.ap-chengdu.myqcloud.com/blog-img/NOIP2018%20(1).jpg">
-<meta property="og:image" content="https://xuan-blog-pics-1308720530.cos.ap-chengdu.myqcloud.com/blog-img/NOIP2018%20(2).jpg">
-<meta property="og:image" content="https://xuan-blog-pics-1308720530.cos.ap-chengdu.myqcloud.com/blog-img/NOIP2018%20(3).jpg">
-<meta property="og:image" content="https://xuan-blog-pics-1308720530.cos.ap-chengdu.myqcloud.com/blog-img/NOIP2018%20(4).jpg">
-<meta property="article:published_time" content="2019-04-20T00:03:53.000Z">
-<meta property="article:modified_time" content="2021-12-31T06:51:28.150Z">
+<meta property="og:image" content="https://xuan-blog-pics-1308720530.cos.ap-chengdu.myqcloud.com/blog-img/MCU-Clock%20(6).jpg">
+<meta property="og:image" content="https://xuan-blog-pics-1308720530.cos.ap-chengdu.myqcloud.com/blog-img/MCU-Clock%20(1).jpg">
+<meta property="og:image" content="https://xuan-blog-pics-1308720530.cos.ap-chengdu.myqcloud.com/blog-img/MCU-Clock%20(2).jpg">
+<meta property="og:image" content="https://xuan-blog-pics-1308720530.cos.ap-chengdu.myqcloud.com/blog-img/MCU-Clock%20(3).jpg">
+<meta property="og:image" content="https://xuan-blog-pics-1308720530.cos.ap-chengdu.myqcloud.com/blog-img/MCU-Clock%20(4).jpg">
+<meta property="og:image" content="https://xuan-blog-pics-1308720530.cos.ap-chengdu.myqcloud.com/blog-img/MCU-Clock%20(5).jpg">
+<meta property="og:image" content="https://xuan-blog-pics-1308720530.cos.ap-chengdu.myqcloud.com/blog-img/MCU-Clock%20(6).jpg">
+<meta property="article:published_time" content="2022-02-17T13:27:30.000Z">
+<meta property="article:modified_time" content="2022-02-17T14:59:29.912Z">
 <meta property="article:author" content="XUAN">
-<meta property="article:tag" content="OI">
+<meta property="article:tag" content="单片机">
+<meta property="article:tag" content="DIY">
+<meta property="article:tag" content="ESP8266">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://xuan-blog-pics-1308720530.cos.ap-chengdu.myqcloud.com/blog-img/NOIP2018%20(1).jpg">
+<meta name="twitter:image" content="https://xuan-blog-pics-1308720530.cos.ap-chengdu.myqcloud.com/blog-img/MCU-Clock%20(6).jpg">
 
-<link rel="canonical" href="http://ocelot324.github.io/2019/04/20/NOIP2018/">
+<link rel="canonical" href="http://ocelot324.github.io/2022/02/17/MCU-Clock/">
 
 
 <script id="page-configurations">
@@ -50,7 +53,7 @@
   };
 </script>
 
-  <title>NOIP2018 参赛纪念 | XUAN 的博客</title>
+  <title>ESP8266单片机DIY数码管小时钟 | XUAN 的博客</title>
   
 
 
@@ -203,7 +206,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://ocelot324.github.io/2019/04/20/NOIP2018/">
+    <link itemprop="mainEntityOfPage" href="http://ocelot324.github.io/2022/02/17/MCU-Clock/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="https://xuan-blog-pics-1308720530.cos.ap-chengdu.myqcloud.com/blog-img/Avatar_tiny.jpg">
@@ -216,7 +219,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          NOIP2018 参赛纪念
+          ESP8266单片机DIY数码管小时钟
         </h1>
 
         <div class="post-meta">
@@ -225,30 +228,24 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2019-04-20 08:03:53" itemprop="dateCreated datePublished" datetime="2019-04-20T08:03:53+08:00">2019-04-20</time>
+              <time title="创建时间：2022-02-17 21:27:30 / 修改时间：22:59:29" itemprop="dateCreated datePublished" datetime="2022-02-17T21:27:30+08:00">2022-02-17</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-12-31 14:51:28" itemprop="dateModified" datetime="2021-12-31T14:51:28+08:00">2021-12-31</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E7%94%9F%E6%B4%BB/" itemprop="url" rel="index">
-                    <span itemprop="name">生活</span>
+                  <a href="/categories/%E7%A7%91%E6%8A%80/" itemprop="url" rel="index">
+                    <span itemprop="name">科技</span>
                   </a>
                 </span>
             </span>
 
           
-            <span id="/2019/04/20/NOIP2018/" class="post-meta-item leancloud_visitors" data-flag-title="NOIP2018 参赛纪念" title="阅读次数">
+            <span id="/2022/02/17/MCU-Clock/" class="post-meta-item leancloud_visitors" data-flag-title="ESP8266单片机DIY数码管小时钟" title="阅读次数">
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
               </span>
@@ -263,8 +260,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/2019/04/20/NOIP2018/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2019/04/20/NOIP2018/" itemprop="commentCount"></span>
+    <a title="valine" href="/2022/02/17/MCU-Clock/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2022/02/17/MCU-Clock/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -281,15 +278,78 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>啊对，只有游，没有记。<del>甩几张图走人</del></p>
-<p><img src="https://xuan-blog-pics-1308720530.cos.ap-chengdu.myqcloud.com/blog-img/NOIP2018%20(1).jpg" alt="NOIP2018 (1)"></p>
-<p><img src="https://xuan-blog-pics-1308720530.cos.ap-chengdu.myqcloud.com/blog-img/NOIP2018%20(2).jpg" alt="NOIP2018 (2)"></p>
+        <img src="https://xuan-blog-pics-1308720530.cos.ap-chengdu.myqcloud.com/blog-img/MCU-Clock%20(6).jpg" alt="MCU-Clock (6)"  />
+
 <span id="more"></span>
 
+<br/>
+
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>一直想做一个DIY小时钟，趁放假时间了解了一下单片机，本想用 ESP8266开发板+1.44寸TFT液晶屏+DHT22温湿度模块 做一个 时间显示+天气预报+当前温湿度显示 小电视，不过需要较多的时间，又临近开学，所以改成了 <strong>ESP8266开发板+4位LED数码管</strong> 的简单时钟，原先的想法就放到暑假来实现。</p>
+<br/>
+
+<h3 id="部件介绍"><a href="#部件介绍" class="headerlink" title="部件介绍"></a>部件介绍</h3><ul>
+<li><strong>ESP8266开发板</strong></li>
+</ul>
+<p>廉价开发板，单板10多块。自带WI-FI，不过只支持2.4G频段。接口是Micro-USB。</p>
+<img src="https://xuan-blog-pics-1308720530.cos.ap-chengdu.myqcloud.com/blog-img/MCU-Clock%20(1).jpg" alt="MCU-Clock (1)" style="zoom: 50%;" />
+
+<img src="https://xuan-blog-pics-1308720530.cos.ap-chengdu.myqcloud.com/blog-img/MCU-Clock%20(2).jpg" alt="MCU-Clock (2)" style="zoom:50%;" />
 
 
-<p><img src="https://xuan-blog-pics-1308720530.cos.ap-chengdu.myqcloud.com/blog-img/NOIP2018%20(3).jpg" alt="NOIP2018 (3)"></p>
-<p><img src="https://xuan-blog-pics-1308720530.cos.ap-chengdu.myqcloud.com/blog-img/NOIP2018%20(4).jpg" alt="NOIP2018 (4)"></p>
+
+<ul>
+<li><strong>TM1637 4位LED数码管</strong></li>
+</ul>
+<p>带时钟点的4位LED数码管，3.3v - 5v 供电均可。</p>
+<img src="https://xuan-blog-pics-1308720530.cos.ap-chengdu.myqcloud.com/blog-img/MCU-Clock%20(3).jpg" alt="MCU-Clock (3)" style="zoom:50%;" />
+
+<img src="https://xuan-blog-pics-1308720530.cos.ap-chengdu.myqcloud.com/blog-img/MCU-Clock%20(4).jpg" alt="MCU-Clock (4)" style="zoom:50%;" />
+
+
+
+<ul>
+<li><strong>整体效果</strong></li>
+</ul>
+<img src="https://xuan-blog-pics-1308720530.cos.ap-chengdu.myqcloud.com/blog-img/MCU-Clock%20(5).jpg" alt="MCU-Clock (5)"  />
+
+<p>使用附带的4根15cm杜邦线连接，稍微有点长，有条件可以用更短的。</p>
+<p>店家送的30cm Micro-USB数据线也不太好用，线材偏硬，不好弯折，会把部件往原来弯折的方向带。推荐用比较细的Micro-USB手机数据线。</p>
+<br/>
+
+<h3 id="软件实现"><a href="#软件实现" class="headerlink" title="软件实现"></a>软件实现</h3><p>此处将整体代码分块解释，按顺序连接就是完整代码。</p>
+<ul>
+<li>头文件及初始设置部分</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;ESP8266WiFi.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;NTPClient.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;WiFiUdp.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&quot;TM1637.h&quot;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">char</span>* ssid     = <span class="string">&quot;XuanBR&quot;</span>; <span class="comment">//WI-FI名称</span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">char</span>* password = <span class="string">&quot;zzx030423&quot;</span>; <span class="comment">//WI-FI密码</span></span><br><span class="line"></span><br><span class="line">WiFiUDP ntpUDP;</span><br><span class="line"><span class="function">NTPClient <span class="title">timeClient</span><span class="params">(ntpUDP, <span class="string">&quot;ntp5.aliyun.com&quot;</span>, <span class="number">8</span>*<span class="number">3600</span>)</span></span>; <span class="comment">//使用阿里云的NTP服务器</span></span><br><span class="line"><span class="comment">//NTP服务设置： 第一个数为时区偏移，单位秒。第二个数（未使用）为更新间隔，单位为毫秒。</span></span><br></pre></td></tr></table></figure>
+
+
+
+<ul>
+<li>数码管设置部分</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> CLK D3 <span class="comment">//数码管CLK接D3口（可变）</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> DIO D2 <span class="comment">//数码管DIO接D2口（可变）</span></span></span><br><span class="line"><span class="function">TM1637 <span class="title">tm1637</span><span class="params">(CLK,DIO)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">unsigned</span> <span class="keyword">char</span> ClockPoint = <span class="number">1</span>; <span class="comment">//时钟点设置，1为亮，0为灭</span></span><br><span class="line"><span class="keyword">int8_t</span> TimeDisp[] = &#123;<span class="number">0x00</span>,<span class="number">0x00</span>,<span class="number">0x00</span>,<span class="number">0x00</span>&#125;; <span class="comment">//4位显示的内容，先初始化为0</span></span><br></pre></td></tr></table></figure>
+
+
+
+<ul>
+<li>主程序（单次执行）部分</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">setup</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  delay(<span class="number">500</span>); </span><br><span class="line">  WiFi.begin(ssid, password); <span class="comment">//连接WI-FI</span></span><br><span class="line">  <span class="keyword">while</span>(WiFi.status() != WL_CONNECTED)&#123;</span><br><span class="line">    delay(<span class="number">500</span>);</span><br><span class="line">  &#125; <span class="comment">//若未连上则等待</span></span><br><span class="line">  </span><br><span class="line">  timeClient.begin();</span><br><span class="line">  tm1637.init(); <span class="comment">//数码管初始化</span></span><br><span class="line">  tm1637.<span class="built_in">set</span>(<span class="number">2</span>); <span class="comment">//数码管显示亮度，0-7 BRIGHT_TYPICAL = 2,BRIGHT_DARKEST = 0,BRIGHTEST = 7</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<ul>
+<li>主程序（重复执行）部分</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">loop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="keyword">if</span>(ClockPoint)&#123;</span><br><span class="line">    tm1637.point(POINT_ON);</span><br><span class="line">    ClockPoint = <span class="number">0</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">else</span> &#123;</span><br><span class="line">    tm1637.point(POINT_OFF); </span><br><span class="line">    ClockPoint = <span class="number">1</span>;</span><br><span class="line">  &#125; <span class="comment">//时钟点 亮1秒灭1秒</span></span><br><span class="line">  </span><br><span class="line">  timeClient.update();</span><br><span class="line">  <span class="keyword">int</span> hour = timeClient.getHours();</span><br><span class="line">  <span class="keyword">int</span> minute = timeClient.getMinutes(); <span class="comment">//获取时间</span></span><br><span class="line">    </span><br><span class="line">  TimeDisp[<span class="number">0</span>] = hour / <span class="number">10</span>;</span><br><span class="line">  TimeDisp[<span class="number">1</span>] = hour % <span class="number">10</span>;</span><br><span class="line">  TimeDisp[<span class="number">2</span>] = minute / <span class="number">10</span>;</span><br><span class="line">  TimeDisp[<span class="number">3</span>] = minute % <span class="number">10</span>; <span class="comment">//分解成4位</span></span><br><span class="line">    </span><br><span class="line">  tm1637.display(<span class="number">0</span>,TimeDisp[<span class="number">0</span>]);</span><br><span class="line">  tm1637.display(<span class="number">1</span>,TimeDisp[<span class="number">1</span>]);</span><br><span class="line">  tm1637.display(<span class="number">2</span>,TimeDisp[<span class="number">2</span>]);</span><br><span class="line">  tm1637.display(<span class="number">3</span>,TimeDisp[<span class="number">3</span>]); <span class="comment">//显示上屏</span></span><br><span class="line">    </span><br><span class="line">  delay(<span class="number">1000</span>); <span class="comment">//时间每秒更新一次</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<br/>
+
+<h3 id="实现效果"><a href="#实现效果" class="headerlink" title="实现效果"></a>实现效果</h3><img src="https://xuan-blog-pics-1308720530.cos.ap-chengdu.myqcloud.com/blog-img/MCU-Clock%20(6).jpg" alt="MCU-Clock (6)"  />
+
+
+
+<p>作为寒假作业的一部分，又完成作业了 ( •̀ ω •́ )✧</p>
 
     </div>
 
@@ -299,7 +359,9 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/OI/" rel="tag"># OI</a>
+              <a href="/tags/%E5%8D%95%E7%89%87%E6%9C%BA/" rel="tag"># 单片机</a>
+              <a href="/tags/DIY/" rel="tag"># DIY</a>
+              <a href="/tags/ESP8266/" rel="tag"># ESP8266</a>
           </div>
 
         
@@ -308,13 +370,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2019/03/23/Chengguan/" rel="prev" title="地铁风成灌铁路线路顶板">
-      <i class="fa fa-chevron-left"></i> 地铁风成灌铁路线路顶板
+    <a href="/2020/08/15/K30%20Ultra/" rel="prev" title="Redmi K30 至尊纪念版 简单开箱体验">
+      <i class="fa fa-chevron-left"></i> Redmi K30 至尊纪念版 简单开箱体验
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2019/07/28/Photograph/" rel="next" title="图片の墙（19/12/08更新）">
-      图片の墙（19/12/08更新） <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -375,6 +434,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%83%A8%E4%BB%B6%E4%BB%8B%E7%BB%8D"><span class="nav-number">2.</span> <span class="nav-text">部件介绍</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BD%AF%E4%BB%B6%E5%AE%9E%E7%8E%B0"><span class="nav-number">3.</span> <span class="nav-text">软件实现</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%9E%E7%8E%B0%E6%95%88%E6%9E%9C"><span class="nav-number">4.</span> <span class="nav-text">实现效果</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
