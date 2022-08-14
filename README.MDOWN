@@ -1,6 +1,6 @@
 ---
 title: 关于本站
-date: 2021-12-09 18:55:00
+date: 2022-08-13 15:54:00
 ---
 #### 关于我
 
@@ -14,7 +14,7 @@ Hello~
 
 [**Github**](https://github.com/ocelot324) 和 **[微博](https://weibo.com/2379418717/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1)** 见侧栏头像下方。
 
-[**地铁族成都区**](http://www.ditiezu.com/forum-53-1.html) ID： [Ocelot324](http://www.ditiezu.com/space-uid-645326.html)
+[**地铁族成都区**](http://www.ditiezu.com/forum-53-1.html) / [**地铁e族成都区**](https://www.ditiee.com/forum-40-1.html) ID： Ocelot324
 
 
 
@@ -24,7 +24,7 @@ XUAN 的博客
 
 生活 | 科技 | 航天 | 交通 | And more……
 
-不定时更新，大概一月一更。
+摸鱼不定时更新，不知道几月一更。
 
 站点托管于 [**Github Pages**](https://github.com/ocelot324/ocelot324.github.io)
 
